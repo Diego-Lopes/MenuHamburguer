@@ -55,6 +55,7 @@ input {
 
 input:checked ~ ul {
   opacity: 1;
+  visibility: visible;
 }
 
 input:checked ~ label .menu {
@@ -81,6 +82,7 @@ ul {
   transform: translate(-50%, -50%);
   list-style: none;
   opacity: 0;
+  visibility: hidden;
   transition: 0.25s 0.1s cubic-bezier(0, 1.07, 0, 1.02);
 }
 
